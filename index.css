@@ -5,7 +5,22 @@ body{
     height: 100vh;
 }
 
+#list{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    flex-grow: 1;
+    justify-content: flex-start;
+}
 
+.account{
+    background-color: #CED0F9;
+    display: flex;
+    width: 100%;
+    font-size: 10vw;
+    margin: 0 auto;
+    justify-content: space-between;
+}
 p{
     margin: 0 auto;
     font-size: 3vw;
@@ -14,16 +29,36 @@ p{
 #header{
     display: flex;
     flex-direction: row;
-    height: 50px;
+    background-color: #F9B4D5;
+    height: 10vh;
 }
 
 #main{
+    background-color: #FFE7F3;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
 
 #footer{
+    padding: 30px;
     display: flex;
-    height: 50px;
+    justify-content: space-around;
+    background-color: #F9B4D5;
+    height: 7vh;
+
+}
+
+#createNewAccount{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    height: 5vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#textField{
+    height: 2vh;
+    width: 18vh;
 }
