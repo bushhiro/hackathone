@@ -3,6 +3,7 @@ p {
     font-size: 17px;
     padding-left: 20px;
     font-weight: bold;
+    font-family: "Inter", sans-serif;
 }
 
 body {
@@ -20,22 +21,30 @@ button {
     width: 258px;
     height: 57px;
     font-weight: 700;
+    font-family: "Inter", sans-serif;
 }
 
 #main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     color: #663333;
     width: 100vw;
     height: 30vh;
 }
 
-#title {
+#titleLog {
     font-size: 34px;
     font-weight: 700;
-    margin: 50% 0 15%;
+    margin: 50% 0 15%; 
+    font-family: "Inter", sans-serif;
+}
+
+#titleReg {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 20% 0 15%; 
+    font-family: "Inter", sans-serif;
 }
 
 .input_item {
@@ -52,3 +61,19 @@ button {
     font-size: 17px;
 }
 
+.reg {
+    margin: 0 0 10% !important;
+}
+
+.exit {
+    margin: 0;
+    font-size: 17px;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+
+.back {
+    margin-top: 10px;
+    
+}

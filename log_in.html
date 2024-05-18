@@ -5,11 +5,10 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Log in</title>
             <link rel="stylesheet" href="./log_in.css">
-            <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
         </head>
         <body>
-            <div id="main">
-                <div id="title">Авторизация</div>
+            <div id="main" style="display: none;">
+                <div id="titleLog">Авторизация</div>
                 <div class="input_item">
                     <p>Логин</p>
                     <input class="input" placeholder="Введите логин">
@@ -18,6 +17,27 @@
                     <p>Пароль</p>
                     <input class="input" placeholder="Введите пароль">
                 </div>
+                <a href="index.html"><button>Войти</button></a>
+                <div class="exit">Регистрация</div>
+            </div>
+            <div id="main" >
+                <img class="back" src="iconBack.svg">
+                <div id="titleReg">Регистрация</div>
+                <div class="input_item reg">
+                    <input class="input" placeholder="Имя">
+                </div>
+                <div class="input_item reg">
+                    <input class="input" placeholder="Фамилия">
+                </div>
+                <div class="input_item reg">
+                    <input class="input" placeholder="E-mail">
+                </div>
+                <div class="input_item reg">
+                    <input class="input" placeholder="Введите пароль">
+                </div>
+                <div class="input_item reg">
+                    <input class="input" placeholder="Введите пароль">
+                </div> 
                 <a href="index.html"><button>Войти</button></a>
             </div>
         </body>
