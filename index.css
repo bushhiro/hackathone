@@ -32,9 +32,9 @@ p{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-radius: 0 0 20% 20%;
+    border-radius: 0 0 100px 100px;
     flex-grow: 1;
-    background-color: #F9B4D5;
+    background-color: #FFD1E7;
     height: 10vh;
 }
 
@@ -50,8 +50,7 @@ p{
 }
 
 #footer{
-    background-color: #F9B4D5;
-    border-radius: 0 0 20% 20%;
+    background-color: #FFD1E7;
     padding: 30px;
     display: flex;
     justify-content: space-around;
@@ -79,7 +78,7 @@ p{
 
 #buttonAdd{
     font-size: 60px;
-    border-radius: 15%;
+    border-radius: 25px;
     margin-right: 10px;
     border: none;
     background-color:#FFE7F3
