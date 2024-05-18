@@ -7,15 +7,38 @@
 </head>
 <body>
     <div id="header">
-      <p>test</p>
+      <div id="headText">Hello ?name?</div>
     </div>
     <div id="main">
-        <p>test</p>
-        <p>test2</p>
-        <p>test3</p>
+        <div id="createNewAccount">
+            <label style="height: 60px; font-size: 40px">
+                название счета
+                <input type="text" id="textField">
+            </label>
+            <button id="buttonAdd">
+                Добавить счет
+            </button>
+        </div>
+        <div id="list">
+            <div class="account">
+                <div class="text">name1</div>
+                <div class="text">value1</div>
+            </div>
+            <div class="account">
+                <div class="text">name2</div>
+                <div class="text">value2</div>
+            </div>
+            <div class="account">
+                <div class="text">name3</div>
+                <div class="text">value3</div>
+            </div>
+        </div>
     </div>
     <div id="footer">
-        test
+        <img src="homeIcon.svg" width="10%" height="auto">
+        <img src="formIcon.svg" width="10%" height="auto">
+        <img src="pieIcon.svg" width="10%" height="auto">
+        <img src="settingIcon.svg" width="10%" height="auto">
     </div>
 </body>
 </html>

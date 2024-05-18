@@ -5,25 +5,86 @@ body{
     height: 100vh;
 }
 
+#list{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    flex-grow: 1;
+    justify-content: flex-start;
+}
 
+.account{
+    border-radius: 100px;
+    background-color: #CED0F9;
+    display: flex;
+    width: 100%;
+    font-size: 10vw;
+    justify-content: space-between;
+}
 p{
-    margin: 0 auto;
-    font-size: 3vw;
+    height: 40px;
+    margin: 0;
+    font-size: 100px;
 }
 
 #header{
     display: flex;
     flex-direction: row;
-    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 20% 20%;
+    flex-grow: 1;
+    background-color: #F9B4D5;
+    height: 10vh;
+}
+
+.text{
+    padding: 30px
 }
 
 #main{
     display: flex;
+    margin: 20px;
     flex-direction: column;
     flex-grow: 1;
 }
 
 #footer{
+    background-color: #F9B4D5;
+    border-radius: 0 0 20% 20%;
+    padding: 30px;
     display: flex;
+    justify-content: space-around;
+    height: 7vh;
+
+}
+
+#createNewAccount{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    height: 5vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#textField{
+    margin-top: 25px;
+    outline: none;
+    border-radius: 10%;
+    font-size: 50px;
     height: 50px;
+    width: 18vh;
+}
+
+#buttonAdd{
+    font-size: 60px;
+    border-radius: 15%;
+    margin-right: 10px;
+    border: none;
+    background-color:#FFE7F3
+}
+
+#headText{
+    font-size: 100px;
 }
