@@ -7,7 +7,34 @@
             <link rel="stylesheet" href="./log_in.css">
         </head>
         <body>
-            <div id="main" style="display: none;">
+            <div id="main" > <!-- Регистрация --->
+                <div class="back">
+                    <img src="iconBack.svg">
+                </div>
+                <div id="titleReg">Регистрация</div>
+                <div class="input_item reg">
+                    <p>Имя</p>
+                    <input class="input">
+                </div>
+                <div class="input_item reg">
+                    <p>Фамилия</p>
+                    <input class="input">
+                </div>
+                <div class="input_item reg">
+                    <p>E-mail</p>
+                    <input class="input">
+                </div>
+                <div class="input_item reg">
+                    <p>Пароль</p>
+                    <input class="input">
+                </div>
+                <div class="input_item reg">
+                    <p>Повторите пароль</p>
+                    <input class="input">
+                </div> 
+                 <a href=""><button>Зарегистрироваться</button></a> <!-- Переход на вход -->
+            </div>
+            <div id="main" style="display: none;"> <!-- Вход --->
                 <div id="titleLog">Авторизация</div>
                 <div class="input_item">
                     <p>Логин</p>
@@ -18,27 +45,7 @@
                     <input class="input" placeholder="Введите пароль">
                 </div>
                 <a href="index.html"><button>Войти</button></a>
-                <div class="exit">Регистрация</div>
-            </div>
-            <div id="main" >
-                <img class="back" src="iconBack.svg">
-                <div id="titleReg">Регистрация</div>
-                <div class="input_item reg">
-                    <input class="input" placeholder="Имя">
-                </div>
-                <div class="input_item reg">
-                    <input class="input" placeholder="Фамилия">
-                </div>
-                <div class="input_item reg">
-                    <input class="input" placeholder="E-mail">
-                </div>
-                <div class="input_item reg">
-                    <input class="input" placeholder="Введите пароль">
-                </div>
-                <div class="input_item reg">
-                    <input class="input" placeholder="Введите пароль">
-                </div> 
-                <a href="index.html"><button>Войти</button></a>
+                <div class="exit">Регистрация</div> <!-- Переход на рег -->
             </div>
         </body>
     </html>
